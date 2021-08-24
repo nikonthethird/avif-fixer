@@ -1,0 +1,11 @@
+[package]
+name = "avif-fixer"
+description = "Fixes AVIF file metadata created by old versions of cavif-rs."
+version = "0.1.0"
+edition = "2018"
+license = "MIT"
+repository = "https://github.com/nikonthethird/avif-fixer"
+
+[dependencies]
+avif-parse = { git = "https://github.com/kornelski/avif-parse.git", rev = "d8eec9ae0430025e0d4d50a19eeacdd28bda89cf" }
+avif-serialize = { git = "https://github.com/kornelski/avif-serialize.git", rev = "f6114cc73623223146836b6baed9c1db02d04926" }
